@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+.logoNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  border-bottom: 1px solid rgb(31, 31, 109);
+  h2 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    color: rgb(31, 31, 109);
+    letter-spacing: 2px;
+  }
+}
+
+.cta {
+  width: 100vw;
+  height: 500px;
+  background-image: url(../media/terminal.png);
+}
