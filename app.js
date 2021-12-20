@@ -5,7 +5,7 @@ console.log("Welcome to ByAirlines");
 //valor: Booleanos que son de True or False
 
 //valor variable
-var Ciudad1 = "madrid";
+var ciudad1 = "madrid";
 
 let nombre = prompt("hola, cual es tu nombre?");
 let respuesta = alert(`hola ${nombre} vamos a ayudarte a conseguir tu vuelo`);
@@ -14,8 +14,8 @@ let destino1 = prompt(
   "a donde quieres viajar?, ingresa tu destino en minuscula"
 );
 
-if (destino1 == Ciudad1) {
-  alert(`tienes suerte, hay asientos para ti en los vuelos a ${Ciudad1}`);
-} else if (destino1 !== Ciudad1) {
+if (destino1 == ciudad1) {
+  alert(`tienes suerte, hay asientos para ti en los vuelos a ${ciudad1}`);
+} else if (destino1 !== ciudad1) {
   alert("tienes pocos asientos disponibles!");
 }

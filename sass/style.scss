@@ -14,7 +14,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 80px;
-  border-bottom: 1px solid rgb(31, 31, 109);
+  border-bottom: 2px solid rgb(31, 31, 109);
   h2 {
     font-family: "Oxygen", sans-serif;
     font-weight: lighter;
@@ -28,4 +28,5 @@ body {
   width: 100vw;
   height: 500px;
   background-image: url(../media/terminal.png);
+  border-bottom: 2px solid rgb(31, 31, 109);
 }
