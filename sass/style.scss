@@ -7,6 +7,7 @@
 
 body {
   background-color: rgb(255, 255, 255);
+  font-family: "Oxygen", sans-serif;
 }
 .logoNav {
   display: flex;
@@ -25,8 +26,86 @@ body {
 }
 
 .cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 500px;
   background-image: url(../media/terminal.png);
   border-bottom: 2px solid rgb(31, 31, 109);
+}
+.contenedorCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  width: 50vw;
+  border-radius: 20px;
+  background-color: rgba(31, 31, 109);
+  border-color: black;
+  box-shadow: rgb(185, 183, 183) 5px 4px;
+  color: blanchedalmond;
+
+  h4 {
+    margin-bottom: 10px;
+    font-size: smaller;
+  }
+
+  .airport {
+    border-radius: 7px;
+    height: 25px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(12, 12, 12);
+  }
+  .date {
+    border-radius: 7px;
+  }
+  .search {
+    width: 70px;
+    height: 25px;
+    border-radius: 7px;
+    box-shadow: rgba(12, 12, 12, 0.637);
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 8, 163);
+    font-weight: bolder;
+  }
+}
+
+.style1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.style2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.style3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.style4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.travels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
